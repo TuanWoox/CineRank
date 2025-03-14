@@ -1,12 +1,57 @@
-# React + Vite
+![image](https://github.com/user-attachments/assets/80ba7062-855f-40d3-a728-0d58c65caa4b)# 🎬 CineRank – Movie Search & Ranking App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 **CineRank** is a movie search and ranking application that fetches movie data from the **OMDb API**. Users can search for films, view details, and rank their favorites!
 
-Currently, two official plugins are available:
+## 🌟 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✅ Search for movies using the **OMDb API**  
+✅ View movie details, including posters, ratings, and descriptions  
+✅ Rank and save your favorite films  
+✅ Responsive UI with **Tailwind CSS**  
+✅ Smooth user experience with React hooks
 
-## Expanding the ESLint configuration
+## 📦 Installation
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/your-username/CineRank.git
+   cd CineRank
+
+   ```
+
+2. ** Install dependencies **
+
+   ```bash
+   npm i
+
+   ```
+
+3. **Get the OMDB Key and Create `.env`**
+   - Visit [OMDB API Key](https://www.omdbapi.com/apikey.aspx) to get your API key.
+   - Create a `.env` file and add the following:
+     ```bash
+     VITE_URL=your_api_key_here
+     ```
+4. ** Run project **
+   ```bash
+   npm run dev
+   ```
+
+## 🔧 Technologies Used
+
+- **React.js** – Frontend framework
+- **Tailwind CSS** – Styling
+- **OMDb API** – Movie data fetching
+- **React Query** – API state management
+- **Redux** – Ui state management
+
+## 📸 Screenshots
+
+![image](https://github.com/user-attachments/assets/786251f0-0acf-48ec-8f15-14bc6977fed5)
+
+![image](https://github.com/user-attachments/assets/98c7ae03-6747-4ef5-9996-e45149dd2b57)
+
+![image](https://github.com/user-attachments/assets/0a9fa9b0-8646-49f3-9333-694774595888)
+
+![image](https://github.com/user-attachments/assets/c27e8d1b-961c-4aa6-9a57-47f4a5f78aed)
